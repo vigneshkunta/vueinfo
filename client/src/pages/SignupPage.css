@@ -1,0 +1,95 @@
+#allignment-container {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup-container {
+    margin: 5%;
+    width: 95vw;
+    background-color: #189AB4;
+    max-width: 650px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.signup-logo img {
+    width: 150px;
+}
+
+.signup-text {
+    margin-bottom: 30px;
+}
+
+.signup-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.signup-form
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #06b1a0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signup-button:hover {
+    background-color: #50727B;
+}
+
+.signup-signin-link a {
+    color: white;
+}
+
+.signup-signin-link {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 760px) {
+    #allignment-container {
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30%;
+    }
+   
+    }
+  
+   @media only screen and (min-width: 760px) and (orientation: landscape) {
+    #allignment-container {
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+      }
+  
+    @media only screen and (max-width: 240px) and (max-height: 320px) {
+        #allignment-container {
+            width:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }

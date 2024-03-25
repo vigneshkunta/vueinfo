@@ -89,6 +89,7 @@ nav {
   justify-content: center;
   align-items: center;
   background-color:  #50727B;
+  min-height: 25px;
   height: 5vh;
   font-style: oblique;
 }
