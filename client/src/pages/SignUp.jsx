@@ -2,6 +2,7 @@ import "./SignupPage.css";
 import { Alert, Button, Label, Spinner, TextInput } from 'flowbite-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from "react";
+import OAuth from "../components/OAuth";
 
 
 const SignupPage = () => {
@@ -66,6 +67,9 @@ const SignupPage = () => {
             </button>
     </form>
     </div>
+    <div className="OAuth">
+        <OAuth />
+        </div>
     <div className="signup-signin-link">
         <p>Already have an account? <Link to="/sign-in">SignIn</Link></p>
     </div>

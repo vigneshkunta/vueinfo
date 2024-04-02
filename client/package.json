@@ -15,6 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^2.2.2",
+    "firebase": "^10.10.0",
     "flowbite-react": "^0.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
