@@ -23,7 +23,8 @@ nav {
   }
   
   li {
-    margin-left: 20px;
+    margin-left: 12px;
+    margin-right: 8px;
   }
   
   a {
@@ -93,6 +94,9 @@ nav {
   height: 5vh;
   font-style: oblique;
 }
+li {
+  margin-left: 20px;
+}
 nav {
   background-color: #05445E;
   width: 150vw;
@@ -111,6 +115,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+}
+li {
+  margin-left: 20px;
 }
     }
 
@@ -131,5 +138,8 @@ nav {
       background-color:  #50727B;
       height: 5vh;
       font-style: oblique;
+    }
+    li {
+      margin-left: 20px;
     }
   }
