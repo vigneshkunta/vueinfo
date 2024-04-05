@@ -4,7 +4,7 @@
     padding: 20px;
     text-align: center;
     position: relative;
-    bottom: -100px;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -30,10 +30,11 @@
 
 @media screen and (max-width: 760px) {
   .footer{
-    margin-top: 60vh;
+    position: relative;
+    overflow: hidden;
     bottom: 0px;
     width: 150vw;
-    padding: 15vh;
+    padding: 3vh;
   }
     }
   

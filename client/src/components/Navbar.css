@@ -7,6 +7,11 @@ nav {
     width: 100vw;
     padding: 1rem;
   }
+
+  .profile-pic {
+    border-radius: 50%;
+    height: 35px;
+  }
   
   .logo {
     font-size: 24px;
@@ -91,7 +96,7 @@ nav {
   align-items: center;
   background-color:  #50727B;
   min-height: 25px;
-  height: 5vh;
+  height: 3vh;
   font-style: oblique;
 }
 li {

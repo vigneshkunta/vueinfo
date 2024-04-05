@@ -45,7 +45,8 @@ const Navbar = () => {
             arrowIcon={false}
             inline
             label={
-              <Avatar alt='user' img={currentUser.profilePicture} rounded />
+             
+              <img alt='user' className='profile-pic' src={currentUser.profilePicture} />
             }
           >
             <Dropdown.Header>
