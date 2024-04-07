@@ -50,6 +50,12 @@
     transition: 0.2s;
 }
 
+#profile-button:hover {
+    color: white;
+    background-color: lightblue;
+    transition: 0.4s;
+  }
+
 .del-out {
     margin-top: 5px;
     text-align: center;
