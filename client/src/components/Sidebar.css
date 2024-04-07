@@ -1,3 +1,4 @@
+
 .sidebar {
     width: 200px;
     height: 70vh;
@@ -36,7 +37,7 @@
    background-color: #05445E;
    transition: 0.2s;
   }
-  /* @media screen and (max-width: 760px) {
+   @media screen and (max-width: 760px) {
     .sidebar-allignment{
       display: flex;
       flex-direction: column;
@@ -50,10 +51,10 @@
       padding: 20px;
       flex: 0 0 200px;
     }
-    .sidebarlist {
+    /* .sidebarlist {
       display: flex;
       flex-direction: row;
-    }
+    } */
     
     }
       
@@ -61,11 +62,9 @@
           .sidebar{
             width:200vw;
           }
-          .sidebarlist {
+          /* .sidebarlist {
             display: flex;
             flex-direction: row;
-          }
+          } */
         
-        } */
-
-  
+        }
