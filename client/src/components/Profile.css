@@ -67,10 +67,18 @@
 .delete-button{
     position: relative;
     left: -24px;
+    &:hover{
+         color: black;
+        transition: 0.2s;
+    }
 }
 .out-button{
     position: relative;
     right: -24px;
+    &:hover{
+        color: black;
+        transition: 0.2s;
+    }
 }
 
 .imageDiv {
