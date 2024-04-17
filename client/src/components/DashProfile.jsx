@@ -141,6 +141,22 @@ export default function DashProfile() {
     }
   };
 
+  const handleSignout = async () => {
+    try {
+      const res = await fetch('/api/user/signout', {
+        method: 'POST',
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        console.log(data.message);
+      } else {
+        dispatch(signoutSuccess());
+      }
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
+
   return (
     <div className='other-allignment'>
     <div className="profile-tab">
@@ -192,7 +208,7 @@ export default function DashProfile() {
         <span onClick={()=>setShowModal(true)} className='cursor-pointer delete-button'>
           Delete Account
         </span>
-        <span className='cursor-pointer out-button'>
+        <span  onClick={handleSignout}  className='cursor-pointer out-button'>
           Sign Out
         </span>
       </div>

@@ -3,10 +3,12 @@ import './Navbar.css';
 import { Link, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { Avatar, Dropdown, } from 'flowbite-react';
+import { signoutSuccess } from '../redux/user/userSlice';
 
 
 const Navbar = () => {
   const path = useLocation().pathname;
+  const dispatch = useDispatch();
   const { currentUser } = useSelector((state) => state.user);
   const handleSignout = async () => {
     try {
@@ -59,7 +61,7 @@ const Navbar = () => {
               <Dropdown.Item>Profile</Dropdown.Item>
             </Link>
             <Dropdown.Divider />
-            <Dropdown.Item onClick={handleSignout}>Sign out</Dropdown.Item>
+            <Dropdown.Item onClick={handleSignout} >Sign out</Dropdown.Item>
           </Dropdown>
        ) : 
       (
