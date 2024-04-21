@@ -44,11 +44,12 @@ export default function DashSidebar() {
   return (
     <div className="sidebar">
     <ul className='sidebarlist'>
-      <li>
-        <Link to="/dashboard?tab=profile">Profile</Link>
-      </li>
-      <li>
-        <button  onClick={handleSignout} >Sign Out</button> 
+        <Link to="/dashboard?tab=profile"><li>Profile</li> </Link>
+        {currentUser.isAdmin && (
+        <Link to="/dashboard?tab=posts"><li>Posts</li></Link>
+        )}     
+      <li  onClick={handleSignout} >
+        <button >Sign Out</button> 
       </li>
     </ul>
   </div>

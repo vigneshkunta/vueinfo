@@ -202,7 +202,20 @@ export default function DashProfile() {
         <input className="profile-input" type="text" id="username" placeholder="username" defaultValue={currentUser.username} onChange={handleChange}/>
         <input className="profile-input" type="email" id="email" placeholder="email" defaultValue={currentUser.email} onChange={handleChange}/>
         <input className="profile-input" type="password" id="password" placeholder="password" onChange={handleChange}/>
-        <button type="submit" id="profile-button" >Update</button>
+        <button type="submit" id="profile-button" disabled={loading || imageFileUploading}  >Update</button>
+
+        {currentUser.isAdmin && (
+          <div  id='create-button'>
+          <Link to={'/create-post'}>
+            <button
+              type='button'
+            >
+             Create a post
+            </button>
+          </Link>
+          </div>
+        )}
+
       </form>
       <div className="del-out">
         <span onClick={()=>setShowModal(true)} className='cursor-pointer delete-button'>

@@ -56,6 +56,22 @@
     transition: 0.4s;
   }
 
+#create-button {
+    background-color: #05445E;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+#create-button button {
+    background-color: #05445E;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
 .del-out {
     margin-top: 5px;
     text-align: center;

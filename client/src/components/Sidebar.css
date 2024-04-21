@@ -10,6 +10,7 @@
 
   .sidebar-allignment{
     display: flex;
+
   } 
   
   .sidebarlist {
@@ -30,13 +31,21 @@
     padding: 1px 0px 1px 8px;
     margin: 8px;
     transition: 0.2s;
+    cursor: pointer;
   }
 
   .sidebarlist  :hover {
-   color: #75E6DA; 
-   background-color: #05445E;
+   color: white; 
    transition: 0.2s;
   }
+
+.tabs {
+ margin: 15px;
+}
+.posts-tab {
+width: 71vw;
+}
+
    @media screen and (max-width: 760px) {
     .sidebar-allignment{
       display: flex;
@@ -55,6 +64,10 @@
       display: flex;
       flex-direction: row;
     } */
+
+    .posts-tab {
+      width: 145vw;
+      }
     
     }
       
@@ -66,5 +79,7 @@
             display: flex;
             flex-direction: row;
           } */
-        
+          .posts-tab {
+            width: 195vw;
+            }
         }
