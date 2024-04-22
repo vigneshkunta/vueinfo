@@ -110,6 +110,15 @@ nav {
   align-items: center;
   padding: 1rem;
 }
+
+  
+.articles{
+  position: relative;
+  left: 3vw;
+  width: 140vw;
+  margin: 2px;
+}
+
   }
 
  @media only screen and (min-width: 760px) and (orientation: landscape) {
@@ -147,4 +156,13 @@ li {
     li {
       margin-left: 20px;
     }
+
+    .articles{
+      position: relative;
+      left: 3vw;
+      width: 185vw;
+      margin: 2px;
+    }
+    
+
   }
