@@ -45,7 +45,7 @@ export default function SignIn() {
     <div id="allignment-container">
     <div id="signup-container">
         <div className="signup-logo">
-            <img src="logo.png" alt="Logo" />
+            <div className="logo"><Link to="/">Zonix</Link></div>
         </div>
         <div className="signup-text">
             <h2>Login to continue</h2>

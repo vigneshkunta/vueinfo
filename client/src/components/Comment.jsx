@@ -76,9 +76,9 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
             />
             <div className='flex justify-end gap-2 text-xs'>
               <Button
+                outline
                 type='button'
                 size='sm'
-                gradientDuoTone='purpleToBlue'
                 onClick={handleSave}
               >
                 Save
@@ -86,7 +86,6 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
               <Button
                 type='button'
                 size='sm'
-                gradientDuoTone='purpleToBlue'
                 outline
                 onClick={() => setIsEditing(false)}
               >

@@ -13,6 +13,11 @@ nav {
     height: 35px;
   }
   
+.search-form {
+  display: flex;
+  flex-direction: row;
+}
+
   .logo {
     font-size: 24px;
     white-space: nowrap;
@@ -84,6 +89,14 @@ nav {
   .menu2{
     display: none;
   }
+
+  #articles-allignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 3vw; */
+  }
+
  
   @media screen and (max-width: 760px) {
   .menu{
@@ -111,12 +124,12 @@ nav {
   padding: 1rem;
 }
 
-  
-.articles{
+.articles {
   position: relative;
   left: 3vw;
   width: 140vw;
   margin: 2px;
+  padding-left: 15vw;
 }
 
   }
