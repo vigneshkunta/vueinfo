@@ -72,6 +72,7 @@ export default function DashComments() {
   };
 
   return (
+    <div className='posts-tab'>
     <div className='table-auto overflow-x-scroll md:mx-auto p-3 scrollbar scrollbar-track-slate-100 scrollbar-thumb-slate-300 dark:scrollbar-track-slate-700 dark:scrollbar-thumb-slate-500'>
       {currentUser.isAdmin && comments.length > 0 ? (
         <>
@@ -145,6 +146,7 @@ export default function DashComments() {
           </div>
         </Modal.Body>
       </Modal>
+    </div>
     </div>
   );
 }

@@ -51,6 +51,9 @@ export default function DashSidebar() {
         {currentUser.isAdmin && (
         <Link to="/dashboard?tab=users"><li>Users</li></Link>
         )}     
+        {currentUser.isAdmin && (
+        <Link to="/dashboard?tab=comments"><li>Comments</li></Link>
+        )}     
       <li  onClick={handleSignout} >
         <button >Sign Out</button> 
       </li>
