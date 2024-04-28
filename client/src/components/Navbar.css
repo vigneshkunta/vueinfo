@@ -97,6 +97,10 @@ nav {
     /* margin-left: 3vw; */
   }
 
+  .footer-allignment {
+    min-height: 89vh;
+  }
+
  
   @media screen and (max-width: 760px) {
   .menu{
@@ -130,6 +134,11 @@ nav {
   width: 140vw;
   margin: 2px;
   padding-left: 10vw;
+}
+
+
+.footer-allignment {
+  min-height: 138vh;
 }
 
   }

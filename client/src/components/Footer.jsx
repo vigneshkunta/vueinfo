@@ -7,10 +7,19 @@ export default function Footer() {
   return (
     <footer className="footer">
     <div className="footer-content">
-        <p>&copy; 2024 Zonix Blogs. All rights reserved.</p>
+      <div className='left-section'>
+         <p>&copy; 2024 Zonix Blogs. All rights reserved.</p>
         <p>Bookmark us</p>
+        <p>For Queries : </p>
+          <p>contact: vigneshyadav3337@gmail.com</p>
+      </div>
+        <div className='rignt-section'>
+        <p>Quick Access</p>
         <div className="social-icons">
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+        </div>
         </div>
     </div>
 </footer>

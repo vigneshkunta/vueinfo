@@ -18,6 +18,7 @@ import Search from './pages/Search';
 export default function App() {
   return (
  <BrowserRouter>
+ <div className="footer-allignment">
    <ScrollToTop />
  <Header/>
  <Routes>
@@ -36,6 +37,7 @@ export default function App() {
   <Route path="/projects" element={<Projects/>} />
   <Route path='/post/:postSlug' element={<PostPage />} />
  </Routes>
+ </div>
  <Footer/>
  </BrowserRouter>
   )
