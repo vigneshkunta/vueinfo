@@ -44,6 +44,9 @@ export default function DashSidebar() {
   return (
     <div className="sidebar">
     <ul className='sidebarlist'>
+    {currentUser && currentUser.isAdmin && (
+            <Link to='/dashboard?tab=dash'><li>Dashboard</li></Link>
+          )}
         <Link to="/dashboard?tab=profile"><li>Profile</li> </Link>
         {currentUser.isAdmin && (
         <Link to="/dashboard?tab=posts"><li>Posts</li></Link>

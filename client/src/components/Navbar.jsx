@@ -49,7 +49,7 @@ const Navbar = () => {
   return (
     <>
     <nav>
-      <div className="logo"><Link to="/">Zonix</Link></div>
+      <div className="logo"><Link to="/">Vueinfo</Link></div>
 
       <div className="search-bar"> 
       <form className='search-form' onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ const Navbar = () => {
       <ul className="menu">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/contact-us">Contact Us</Link></li>
       </ul>
       
       {currentUser ? (
@@ -97,7 +97,7 @@ const Navbar = () => {
        <ul className="menu2">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/contact-us">Contact Us</Link></li>
       </ul>
       </div>
     </>
