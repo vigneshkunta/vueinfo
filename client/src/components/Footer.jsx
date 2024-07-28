@@ -11,7 +11,7 @@ export default function Footer() {
          <p>&copy; 2024 Vueinfo. All rights reserved.</p>
         <p>Bookmark us</p>
         <p>For Queries : </p>
-          <p>contact: vigneshyadav3337@gmail.com</p>
+          <p>contact: Shaikahmed72561@gmail.com</p>
       </div>
         <div className='rignt-section'>
         <p>Quick Access</p>
